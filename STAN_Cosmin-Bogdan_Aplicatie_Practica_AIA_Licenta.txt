@@ -1,0 +1,20 @@
+https://github.com/StanBobi/STAN_Cosmin-Bogdan_Aplicatie_Practica_AIA_Licenta
+
+Pe link-ul de mai sus se regăsesc două fișiere Arduino: MorseTransmitator.ino și MorseReceptor.ino, adică programul de la transmițător, respectiv receptor.
+
+
+1.) Pentru compilarea proiectului, este necesară instalarea software-ului Arduino IDE
+    Link: https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE
+
+2.) Compilarea programelor: 
+2.1) La transmițător, este necesară adăugarea unor biblioteci noi.
+     Se va selecta „Tools” din meniul de sus, iar apoi „Manage libraries” (sau ctrl+shift+i)
+     Se vor căuta bibliotecile „PS2Keyboard.h” și ”LiquidCrystal.h” și vor fi instalate.
+     Se adaugă codul specific transmițătorului și prin butonul de „Verify” (ctrl+r) se va verifica dacă există greșeli în cod.
+
+2.2) La receptor, se va adăuga biblioteca „LiquidCrystal.h” (dacă nu a fost adăugată deja)
+     Dacă biblioteca nu a fost adăugată încă, se vor urmări pașii de la 2.1, liniile 2,3
+     Se adaugă codul specific receptorului și prin butonul de „Verify” (ctrl+r) se va verifica dacă există greșeli în cod.
+
+
+
